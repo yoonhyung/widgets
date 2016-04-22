@@ -1,0 +1,10 @@
+<div class=${baseClass} data-dojo-attach-event="onclick:_onClick,ondblclick:_onDblClick">
+    ${!avatarTemplate}
+    <div class="${baseClass}Contents">
+        <span class="${baseClass}Title" data-dojo-attach-point="titleNode"></span>
+        <span class="${baseClass}Subtitle" data-dojo-attach-point="subTitleNode"></span>
+    </div>
+    <span class="${baseClass}Button" data-dojo-attach-point="expandableNode" data-dojo-attach-event="onclick:_onExpandableButton">
+        <span class="${baseClass}ButtonIcon" data-dojo-attach-point="buttonIconNode"></span>
+    </span>
+</div>
